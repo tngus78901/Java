@@ -1,0 +1,30 @@
+package sub6;
+
+/*
+ * Date : 21st,June,2023
+ * Name : Justina
+ * Content :
+ * 
+ */
+
+public class Truck extends Car{
+
+	
+	
+	
+	private int capacity;
+	
+	public Truck(String name, String color, int speed, int capacity) {
+		super(name, color, speed);
+		this.capacity = capacity;
+	}
+	
+	public void load(int capacity) {
+		this.capacity += capacity;
+	}
+	
+	public void show() {
+		super.show();
+		System.out.println("적재량 : " + this.capacity);
+	}
+}
