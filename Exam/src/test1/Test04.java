@@ -8,9 +8,12 @@ public class Test04 {
 
 	public static void main(String[] args) {
     
-		Scanner.out.print("점수 입력 :" );
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("점수 입력 :");
 		int score = sc.nextInt();
 		char grade;
+		
 		System.out.println("입력한 점수는 " + score + "입니다.");
 		
 		if(score >= 90 && score <= 100) {
@@ -18,9 +21,16 @@ public class Test04 {
 			
 		}else if(score >= 80&& score<90){
 			grade = 'B';
-			70 80
-			60 70
-			50 60
+			
+		}else if(score >=70 && score<80) {
+			grade = 'C';
+		}else if(score >=60 && score<70){	
+			grade = 'D';
+		}else {
+			grade = 'F';
+		
 		}
+		System.out.printf("등급은 %c입니다.",grade);
 	}
 }
+
