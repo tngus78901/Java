@@ -1,4 +1,4 @@
-package test2;
+package test02;
 
 /*
  * Date : 15th.June.2023

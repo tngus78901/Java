@@ -1,4 +1,4 @@
-package test1;
+package test01;
 import java.util.Scanner;
 /* 이름 : 김수현
  * 날짜 : 2023.06.13

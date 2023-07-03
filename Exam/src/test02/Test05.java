@@ -1,4 +1,4 @@
-package test2;
+package test02;
 import java.util.Scanner;
 /*
  * Date : 15th.June.2023

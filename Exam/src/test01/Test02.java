@@ -1,4 +1,4 @@
-package test1;
+package test01;
 import java.util.Scanner;
 
 import javax.sound.midi.SysexMessage;
