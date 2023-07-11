@@ -17,20 +17,20 @@ import java.sql.SQLException;
 public class JDBCTest {
 	public static void main(String[] args) {
 		
-		//DB정보
+		// DB정보
 		String host = "jdbc:mysql://127.0.0.1:3306/userdb";
 		String user = "root";
 		String pass = "1234";
 		
 		
 		try {
-			//JDBC 드라이버 로드
+			// JDBC 드라이버 로드
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			
 			
 			
-			//데이터베이스 접속
-		Connection conn	= DriverManager.getConnection(host, user, pass);
+			// 데이터베이스 접속
+			Connection conn	= DriverManager.getConnection(host, user, pass);
 		
 		if(conn !=null) {
 			System.out.println("데이터베이스 접속 성공!");
